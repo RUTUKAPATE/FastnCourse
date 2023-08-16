@@ -6,7 +6,7 @@ height: fill-container
 align-content: top-center
 spacing.fixed.px: 20
 
--- box: What is FTD
+-- box: What is FTD ?
 
 ftd is a programming language for building user interfaces and content centric websites. ftd is easy to learn, especially for non programmers, but does not compromise on what you can build with it.
 
