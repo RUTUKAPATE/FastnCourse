@@ -1,66 +1,30 @@
--- ds.page: Page with right-sidebar 👉
-sidebar: true
+-- import: fifthtry.github.io/doc-site as ds
+-- import: FastnCourse/assets
+-- import: gargajit.github.io/expander as e
+-- import: fifthtry.github.io/admonitions as cbox
+-- import: fastn-community.github.io/winter-cs
 
--- ds.page.right-sidebar:
+-- ds.page: Demo Page
+site-logo: $assets.files.images.logo.svg
+colors: $winter-cs.main
 
--- ds.h3: Heading in sidebar
+Hey Learners, This demo page will show how to use the 'Featured Components' directly so that you can utilize these to create your project.
 
-You can call any component inside sidebar. 
+-- ds.h1: About this Page
 
-This right-sidebar will appear on all pages.
+This page is created by using four packages. They are
 
--- ds.code:
-lang: ftd
+- doc-site
+- expander
+- admonitions
+- color-scheme
 
-\-- ftd.text: Hello World
+-- e.box: Hello World
 
--- end: ds.page.right-sidebar
+Welcome to the future of JSON/YML and HTML/CSS
 
--- ds.page.body:
+-- cbox.info: Admonitions note
 
-If you want to show right-sidebar on your page you can add it like sidebar shown
-in this page 👉.
-
--- ds.h3: `right-sidebar` documentation
-
-[Click here](https://fastn-community.github.io/doc-site/right-sidebar/) to read
-more about `right-sidebar`.
-
--- ds.h3: How this page is built?
-
-Copy below code snippet to create pages like this with right-sidebar.
-
--- ds.code:
-lang: ftd
-
-\-- ds.page: Page with right-sidebar 👉
-sidebar: true
-
-\-- ds.page.right-sidebar:
-
-\-- ds.h3: Heading in sidebar
-
-You can call any component inside sidebar. 
-
-This right-sidebar will appear on all pages.
-
-\-- ds.code:
-lang: ftd
-
-\-- ftd.text: Hello World
-
-\-- end: ds.page.right-sidebar
-
-\-- ds.page.body:
-
-If you want to show right-sidebar on your page you can add it like sidebar shown
-in this page 👉.
-
-\-- ds.h3: Read right-sidebar documentation
-
-[Click here](https://fastn-community.github.io/doc-site/right-sidebar/) to read
-more about `right-sidebar`.
-
-\-- end: ds.page
+You can create your own exciting 'components' and use it just like we did here, or, publish it as a package on 'Github' and share it for others to use it.
 
 -- end: ds.page
