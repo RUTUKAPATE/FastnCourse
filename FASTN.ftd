@@ -1,18 +1,11 @@
--- import: fastn
+-- import: fastn as f
 
--- fastn.package: rutukapate.github.io/fastncourse
-favicon: /-/rutukapate.github.io/fastncourse/favicon.ico
+-- f.package: CHALLENGE1
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/footer
--- fastn.dependency: fastn-community.github.io/roboto-typography
+-- f.dependency: fifthtry.github.io/doc-site
 
--- fastn.auto-import: rutukapate.github.io/fastncourse/FASTN/ds
--- fastn.auto-import: rutukapate.github.io/fastncourse/assets
--- fastn.auto-import: doc-site
+-- f.dependency: gargajit.github.io/expander
 
--- fastn.sitemap:
+-- f.dependency: fifthtry.github.io/admonitions
 
-# Home: index.html
-
-- Right Sidebar Sample: /sidebar/
+-- f.dependency: fastn-community.github.io/winter-cs
