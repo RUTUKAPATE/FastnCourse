@@ -87,13 +87,13 @@ $on-mouse-leave$: $ftd.set-bool($a = $box.over, v = false)
 -- ftd.text: $box.title
 
 -- ftd.image:
-src: $assets.files.images.closebutton.webp
-width.fixed.px: 20
+;;src: $assets.files.images.downarrow.png
+;;width.fixed.px: 20
 if: { box.open }
 
 -- ftd.text:
-src: $assets.files.images.openbutton.png
-width.fixedd.px: 20
+;;src: $assets.files.images.uparrow.jpg
+;;width.fixed.px: 20
 if: { !box.open }
 
 -- end: ftd.row
