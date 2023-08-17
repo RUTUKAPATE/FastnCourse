@@ -79,6 +79,8 @@ border-color: $box.bordercolor
 color: $box.headercolor
 background.solid: $box.bg-header
 $on-click$: $toggle($value = $box.open)
+$on-mouse-enter$: $ftd.set-bool($a = $box.over, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $box.over, v = false)
 
 -- ftd.text: $box.title
 
@@ -129,3 +131,7 @@ dark: #e2e82c
 -- ftd.color border-color:
 light: #79ad9e
 dark: #a0b2c1
+
+-- ftd.color $hover-color:
+light: #b7e7d9
+dark: #5276a9
