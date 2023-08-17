@@ -55,6 +55,7 @@ This looks much better. We can do a lot more.
 caption title: Default Header
 body body: Default Body
 boolean $open: false
+boolean $over: false
 ftd.color headercolor: $header-text-color
 ftd.color bordercolor: $border-color
 ftd.color bodycolor: $body-text-color
@@ -78,6 +79,7 @@ padding.px: 10
 border-color: $box.bordercolor
 color: $box.headercolor
 background.solid: $box.bg-header
+background.solid if { box.hover }: $box.hovercolor 
 $on-click$: $toggle($value = $box.open)
 $on-mouse-enter$: $ftd.set-bool($a = $box.over, v = true)
 $on-mouse-leave$: $ftd.set-bool($a = $box.over, v = false)
