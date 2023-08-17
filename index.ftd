@@ -70,13 +70,15 @@ $on-click$: $toggle($value = $box.open)
 
 -- ftd.text: $box.title
 
--- ftd.text: X
+-- ftd.image:
+src: $assets.files.images.closebutton.webp
+width.fixed.px: 20
 if: { box.open }
-color: red
 
--- ftd.text: O
+-- ftd.text:
+src: $assets.files.images.openbutton.png
+width.fixedd.px: 20
 if: { !box.open }
-color: green
 
 -- end: ftd.row
 
