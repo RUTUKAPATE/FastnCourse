@@ -11,13 +11,13 @@ In this video we are going to polish our 'Fastn Course' project and
 We are going to do the following:
 
 - Use featured components
-- replace 'ftd.text' icons on header with images of arrows
-- add 'on-mouse' event handlers
+- replace `ftd.text` icons on header with images of arrows
+- add `on-mouse` event handlers
 - add buttons by creating a component
 
 -- ds.h1: About Fastn Course
 
-'Fastn Course' is a package which has a component called box. This box has a header area and a body area.
+`Fastn Course` is a package which has a component called box. This box has a header area and a body area.
 
 One can expand and collapse the body area when clicked on header area. It takes user defined content or it also has a default text.
 
@@ -34,7 +34,7 @@ fastn is a web-framework, a content management system, and an integrated develop
 
 -- ds.markdown:
 
-This box gives 'default values'.
+This box gives `default values`.
 
 -- box:
 
@@ -44,7 +44,7 @@ This looks much better. We can do a lot more.
 
 -- cbox.tip: Tip!
 
-'Doc-site' has a dark-mode switcher on the bottom-right side of the webpage.
+`Doc-site` has a dark-mode switcher on the bottom-right side of the webpage.
 
 -- end: cbox.tip
 
