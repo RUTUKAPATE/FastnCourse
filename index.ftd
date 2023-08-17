@@ -79,7 +79,7 @@ padding.px: 10
 border-color: $box.bordercolor
 color: $box.headercolor
 background.solid: $box.bg-header
-background.solid if { box.hover }: $box.hovercolor 
+background.solid if { box.over }: $box.hovercolor 
 $on-click$: $toggle($value = $box.open)
 $on-mouse-enter$: $ftd.set-bool($a = $box.over, v = true)
 $on-mouse-leave$: $ftd.set-bool($a = $box.over, v = false)
