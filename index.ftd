@@ -1,10 +1,29 @@
--- ftd.column:
-padding.px: 50
-background.solid: #eee
-width: fill-container
-height: fill-container
-align-content: top-center
-spacing.fixed.px: 20
+-- import: fifthtry.github.io/doc-site as ds
+-- import: fifthtry.github.io/forest-cs
+-- import: fifthtry.github.io/admonitions as cbox
+
+-- ds.page: Polished Page
+site-logo: $assets.files.images.logo.svg
+color: $forest-cs.main
+
+In this video we are going to polish our 'Fastn Course' project and
+We are going to do the following:
+
+- Use featured components
+- replace 'ftd.text' icons on header with images of arrows
+- add 'on-mouse' event handlers
+- add buttons by creating a component
+
+-- ds.h1: About Fastn Course
+
+'Fastn Course' is a package which has a component called box. This bpox has a header area and a body area.
+
+One can expand and collapse the body area when clicked on header area. It takes user defined content or it also has a default text.
+
+-- ds.markdown:
+
+Box can have user-defined values or it can have default values as well.
+Following are the two boxes:
 
 -- box: What is FTD ?
 
@@ -12,20 +31,25 @@ ftd is a programming language for building user interfaces and content centric w
 
 fastn is a web-framework, a content management system, and an integrated development environment for ftd. fastn is a webserver, and compiles ftd to HTML/CSS/JS, and can be deployed on your server, or on fastn cloud by FifthTry.
 
--- box:
+-- ds.markdown:
 
--- box.title: 
-
-About FTD
-
--- box.body:
-
-'Components' give scalability, efficiency as well as consistency to the design. Once created can be used and reused as many times throughout the project as well as can be used by others when published on GitHub.
+This box gives 'default values'.
 
 -- box:
 
--- end: ftd.column
-;;root column ends
+-- ds.markdown:
+
+This looks much better. We can do a lot more.
+
+-- cbox.tip: Tip!
+
+'Doc-site' has a dark-mode switcher on the bottom-right side of the webpage.
+
+-- end: cbox.tip
+
+-- end: ds.page
+
+
 
 -- component box:
 caption title: Default Header
@@ -47,7 +71,7 @@ $on-click$: $toggle($value = $box.open)
 -- ftd.text: $box.title
 
 -- ftd.text: X
-if: { box.open}
+if: { box.open }
 color: red
 
 -- ftd.text: O
