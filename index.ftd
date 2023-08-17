@@ -55,7 +55,7 @@ This looks much better. We can do a lot more.
 caption title: Default Header
 body body: Default Body
 boolean $open: false
-booloean $over: false
+boolean $over: false
 ftd.color headercolor: $header-text-color
 ftd.color bordercolor: $border-color
 ftd.color bodycolor: $body-text-color
