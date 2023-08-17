@@ -55,17 +55,29 @@ This looks much better. We can do a lot more.
 caption title: Default Header
 body body: Default Body
 boolean $open: false
+ftd.color headercolor: $header-text-color
+ftd.color bordercolor: $border-color
+ftd.color bodycolor: $body-text-color
+ftd.color hovercolor: $hover-color
+optional ftd.color bg-header: $bg-header
+optional ftd.color bg-body: $bg-body
 
 -- ftd.column:
 border-width.px: 4
 spacing.fixed.px: 10
 width: fill-container
+border-color: $box.bordercolor
+color: $box.bodycolor
+background.solid: $box.bg-body
 
 -- ftd.row: 
 width: fill-container
 spacing: space-between
 border-bottom-width.px: 1
 padding.px: 10
+border-color: $box.bordercolor
+color: $box.headercolor
+background.solid: $box.bg-header
 $on-click$: $toggle($value = $box.open)
 
 -- ftd.text: $box.title
@@ -96,3 +108,24 @@ boolean $value:
 
 
 value = !value;
+
+
+-- ftd.color bg-header:
+light: #f1f8ff
+dark: #235294
+
+-- ftd.color bg-body:
+light: #f1f8ff
+dark: #235294
+
+-- ftd.color header-text-color:
+light: #858692
+dark: #e2e82c
+
+-- ftd.color body-text-color:
+light: #3f3e43
+dark: #e2e82c
+
+-- ftd.color border-color:
+light: #79ad9e
+dark: #a0b2c1
