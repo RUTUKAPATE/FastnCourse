@@ -1,0 +1,38 @@
+-- import: Challenge1/lib
+
+-- ftd.column:
+width: fill-container
+align-content: center
+padding.px: 20
+
+-- ftd.row:
+padding.px: 100
+spacing.fixed.px: 150
+
+-- lib.button: Extra Large Button
+text-color: $lib.monochrome-dark
+bg-color: $lib.monochrome-light
+border-color: $lib.shadow-color
+hover-shadow: $lib.s
+
+-- lib.button: Large Button
+text-color: $lib.monochrome-dark
+bg-color: $lib.monochrome-light
+border-color: $lib.shadow-color
+hover-shadow: $lib.s
+
+-- lib.button: Medium Button
+text-color: $lib.monochrome-dark
+bg-color: $lib.monochrome-light
+border-color: $lib.shadow-color
+hover-shadow: $lib.s
+
+-- lib.button: Small Button
+text-color: $lib.monochrome-dark
+bg-color: $lib.monochrome-light
+border-color: $lib.shadow-color
+hover-shadow: $lib.s
+
+-- end: ftd.row
+
+-- end: ftd.column
